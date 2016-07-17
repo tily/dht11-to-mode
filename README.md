@@ -46,7 +46,7 @@ Description=DHT11 to MODE
 
 [Service]
 Type=simple
-EnvironmentFile=/etc/sysconfig/dht11-to-mode
+EnvironmentFile=/etc/default/dht11-to-mode
 ExecStart=/home/pi/dht11-to-mode
 Restart=always
 
@@ -54,7 +54,7 @@ Restart=always
 WantedBy=multi-user.target
 ```
 
-And add: `/etc/sysconfig/dht11-to-mode`:
+And add: `/etc/default/dht11-to-mode`:
 
 ```
 MODE_ENDPOINT=<Your MODE endpoint>
