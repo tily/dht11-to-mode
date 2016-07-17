@@ -66,5 +66,5 @@ INTERVAL=<Interval in seconds>
 Then you can start service as follows:
 
 ```
-sudo systemctl start dht11-to-mode
+$ sudo systemctl start dht11-to-mode
 ```
