@@ -36,9 +36,9 @@ $ sudo ./dht11-to-mode
 2016/07/17 06:24:52 [dht11] Triggering event: {HomeId:0 Timestamp:0001-01-01 00:00:00 +0000 UTC EventType:dht11-retried EventData:map[value:0] OriginDeviceId:0 OriginDeviceClass: OriginDeviceIp:}
 ```
 
-## Run as a service
+## Run as a service with `systemd`
 
-To use `systemd` to run the program as a service, add `/etc/systemd/system/dht11-to-mode.service`:
+Add `/etc/systemd/system/dht11-to-mode.service`:
 
 ```
 [Unit]
