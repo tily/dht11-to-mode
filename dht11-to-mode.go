@@ -1,11 +1,11 @@
 package main
 
 import (
-	"io/ioutil"
-	"log"
 	"github.com/d2r2/go-dht"
 	_ "github.com/joho/godotenv/autoload"
 	"github.com/tily/modeclient"
+	"io/ioutil"
+	"log"
 	"os"
 	"strconv"
 	"time"
@@ -35,15 +35,15 @@ func crawl(device modeclient.Device, interval int) {
 
 		tEvent := modeclient.Event{
 			EventType: "dht11-temperature",
-			EventData: map[string]float32{"value":temperature},
+			EventData: map[string]float32{"value": temperature},
 		}
 		hEvent := modeclient.Event{
 			EventType: "dht11-humidity",
-			EventData: map[string]float32{"value":humidity},
+			EventData: map[string]float32{"value": humidity},
 		}
 		rEvent := modeclient.Event{
 			EventType: "dht11-retried",
-			EventData: map[string]int{"value":retried},
+			EventData: map[string]int{"value": retried},
 		}
 
 		trigger(device, tEvent)
