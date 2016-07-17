@@ -10,7 +10,8 @@ Then, download dht-to-mode binary to `/home/pi/dht-to-mode`.
 
 ```
 $ cd /home/pi/
-$ wget http://example.com/dht-to-mode
+$ wget https://dht11-to-mode.jp-east-2.os.cloud.nifty.com/dht11-to-mode
+$ chmod a+x dht11-to-mode
 ```
 
 Write your configuration to `/home/pi/.env`:
