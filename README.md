@@ -6,6 +6,9 @@ Simple program for collecting dht11 sensor data and publishing them as events to
 
 First, you have to connect your Raspberry Pi and dht11 sensor apppropriately.
 
+* [Temperature monitoring with Raspberry Pi and DHT11/22 temperature and humidity sensor - Documentation - Documentation](http://docs.gadgetkeeper.com/pages/viewpage.action?pageId=7700673)
+* [DHT11 Humidity & Temperature Sensor Module | UUGear](http://www.uugear.com/portfolio/dht11-humidity-temperature-sensor-module/)
+
 Then, download dht-to-mode binary to `/home/pi/dht-to-mode`.
 
 ```
