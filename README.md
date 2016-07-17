@@ -59,7 +59,7 @@ MODE_DEVICE_API_KEY=<Your device's API Key>
 INTERVAL=<Interval in seconds>
 ```
 
-Then you can start service as follow:
+Then you can start service as follows:
 
 ```
 systemctl start dht11-to-mode
