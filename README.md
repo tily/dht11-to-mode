@@ -38,7 +38,7 @@ $ sudo ./dht11-to-mode
 
 ## Run as a service
 
-To use `systemd` to run the program as a service, Write `/etc/systemd/system/dht11-to-mode.service`:
+To use `systemd` to run the program as a service, add `/etc/systemd/system/dht11-to-mode.service`:
 
 ```
 [Unit]
@@ -54,7 +54,7 @@ Restart=always
 WantedBy=multi-user.target
 ```
 
-And write: `/etc/sysconfig/dht11-to-mode`:
+And add: `/etc/sysconfig/dht11-to-mode`:
 
 ```
 MODE_ENDPOINT=<Your MODE endpoint>
