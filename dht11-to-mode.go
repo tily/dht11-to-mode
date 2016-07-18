@@ -4,7 +4,6 @@ import (
 	"github.com/d2r2/go-dht"
 	_ "github.com/joho/godotenv/autoload"
 	"github.com/tily/modeclient"
-	"io/ioutil"
 	"log"
 	"os"
 	"strconv"
@@ -56,9 +55,8 @@ func crawl(device modeclient.Device, interval int) {
 
 func trigger(device modeclient.Device, event modeclient.Event) {
 	log.Printf("[dht11] Triggering event: %+v\n", event)
-	res, err := device.TriggerEvent(event)
+	_, err := device.TriggerEvent(event)
 	if err != nil {
-		body, _ := ioutil.ReadAll(res.Body)
-		log.Printf("[dht11] Error happened: %s %s", err, body)
+		log.Printf("[dht11] Error happened: %s", err)
 	}
 }
