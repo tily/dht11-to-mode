@@ -43,6 +43,8 @@ Add `/etc/systemd/system/dht11-to-mode.service`:
 ```
 [Unit]
 Description=DHT11 to MODE
+Wants=network-online.target
+After=network.target network-online.target
 
 [Service]
 Type=simple
