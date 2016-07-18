@@ -11,7 +11,7 @@ First, you have to connect your Raspberry Pi and dht11 sensor apppropriately.
 * [Temperature monitoring with Raspberry Pi and DHT11/22 temperature and humidity sensor - Documentation - Documentation](http://docs.gadgetkeeper.com/pages/viewpage.action?pageId=7700673)
 * [DHT11 Humidity & Temperature Sensor Module | UUGear](http://www.uugear.com/portfolio/dht11-humidity-temperature-sensor-module/)
 
-Then, download [dht-to-mode](https://dht11-to-mode.jp-east-2.os.cloud.nifty.com/dht11-to-mode) binary to `/home/pi/`.
+Then, download [dht11-to-mode](https://dht11-to-mode.jp-east-2.os.cloud.nifty.com/dht11-to-mode) binary to `/home/pi/`.
 
 ```
 $ cd /home/pi/
