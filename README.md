@@ -1,5 +1,7 @@
 # dht11-to-mode
 
+![](banner.png)
+
 Simple program for Rapsberry Pi to collect dht11 sensor data and publishing them as events to [MODE](http://www.tinkermode.com).
 
 ## Usage
